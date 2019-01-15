@@ -1,7 +1,6 @@
 .gridContainer{
     margin-top: 10px;
     display: grid;
-    height: 1000px;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
 }
@@ -10,4 +9,11 @@
 }
 body{
     margin-top: 50px;
+}
+.contentImage{
+    width: 217pt;
+    margin-left: -10pt;
+}
+.spacing{
+    margin-left: 50px;
 }
