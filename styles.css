@@ -1,17 +1,29 @@
 body {
-    margin: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 
-    background-color: #b6a5a5;
+    background-color: #bebebe;
     
 }
 
-.profile {
-    background-color: #999;
+p {
+    margin: 10px;
+}
+#nav-bar {
+    padding: 5px;
+    color: white;
+    background-color: grey;
 }
 
-#nav-bar {
-    color: white;
+#profile-container {
+    padding-left: 5%;
+    padding-right: -5%;
+
 }
+
+.profile {
+    text-align: center;
+}
+
+
