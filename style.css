@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+html {
+    align-content: center;
+=======
+.gridContainer{
+    margin-top: 10px;
+    display: grid;
+    height: 1000px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+.stupidDiv{
+    margin-top: 15px;
+}
+body{
+    margin-top: 50px;
+>>>>>>> 719c9e61fcc7068cd3e3e3f3e88a02ae40671fb9
+}
