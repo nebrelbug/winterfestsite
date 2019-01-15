@@ -1,0 +1,17 @@
+body {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    background-color: #b6a5a5;
+    
+}
+
+.profile {
+    background-color: #999;
+}
+
+#nav-bar {
+    color: white;
+}
