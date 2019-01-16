@@ -2,8 +2,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
-    background-color: #bebebe;
+    color: #d3d3d3;
+    background-color: #303030;
     
 }
 
@@ -12,14 +12,15 @@ p {
 }
 #nav-bar {
     padding: 5px;
-    color: white;
     background-color: grey;
+}
+#nav-bar a {
+    color: #d3d3d3;
 }
 
 #profile-container {
     padding-left: 5%;
     padding-right: -5%;
-
 }
 
 .profile {
