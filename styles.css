@@ -10,13 +10,7 @@ body {
 p {
     margin: 10px;
 }
-#nav-bar {
-    padding: 5px;
-    background-color: grey;
-}
-#nav-bar a {
-    color: #d3d3d3;
-}
+
 
 #profile-container {
     padding-left: 5%;
