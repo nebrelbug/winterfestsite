@@ -1,3 +1,6 @@
+.ui-link-card {
+    align-content: center;
+}
 .gridContainer{
     margin-top: 10px;
     display: grid;
