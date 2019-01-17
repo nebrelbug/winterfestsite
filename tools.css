@@ -1,0 +1,25 @@
+h1{
+    margin: auto;
+    padding: 10px;
+    color: #d3d3d3;
+    text-align: center;
+}
+
+
+.image {
+    text-align: center;
+}
+
+.header {
+    color: black;
+    
+}
+
+body {
+    color: #d3d3d3;
+    background-color: #303030;
+}
+
+#card-container .card {
+background-color: #b9b9b9;
+}
