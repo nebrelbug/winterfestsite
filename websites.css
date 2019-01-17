@@ -1,0 +1,24 @@
+
+body{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #d3d3d3;
+    background-color: #303030;
+}
+.contentImage{
+    width: 217pt;
+    margin-left: -10pt;
+}
+.spacing{
+    margin-left: 50px;
+}
+#nav-bar{
+    margin-top: 0px;
+}
+#problemChild{
+    margin-left: auto;
+    padding-right: -7.5%;
+    padding-left: 7.5%;
+}
