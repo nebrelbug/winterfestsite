@@ -22,14 +22,20 @@ p {
 
 #profile-container a:hover {
     color: #48AE49;
+    cursor: pointer;
 }
 
 #profile-container a {
     color: #153518;
 }
 
-.profile {
-    text-align: center;
+:hover {
+    cursor: default;
 }
+
+i:hover {
+    cursor: pointer;
+}
+
 
 
