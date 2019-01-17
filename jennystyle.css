@@ -99,3 +99,11 @@ body {
   color: #d3d3d3;
   background-color: #303030;
 }
+
+div#jennybody {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 50px;
+}
