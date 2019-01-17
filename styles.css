@@ -1,0 +1,35 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #d3d3d3;
+    background-color: #303030;
+}
+
+p {
+    margin: 10px;
+}
+
+
+.item {
+    margin-right: 10px;
+}
+
+#profile-container {
+    padding-left: 5%;
+    padding-right: -5%;
+}
+
+#profile-container a:hover {
+    color: #48AE49;
+}
+
+#profile-container a {
+    color: #153518;
+}
+
+.profile {
+    text-align: center;
+}
+
+
