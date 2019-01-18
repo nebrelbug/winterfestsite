@@ -31,5 +31,9 @@ i:hover {
 .date {
     color: rgb(134, 124, 124);
 }
-
+h1{
+    padding-bottom: 17px;
+    padding-top: 5px;
+}
+    
 
