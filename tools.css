@@ -1,4 +1,4 @@
-h1{
+#tools {
     margin: auto;
     padding: 10px;
     color: #d3d3d3;
@@ -22,4 +22,24 @@ body {
 
 #card-container .card {
 background-color: #b9b9b9;
+}
+
+#languages {
+    padding: 40px;
+}
+
+#languages h1{
+    padding: 20px;
+    color: white;
+}
+#languages a {
+    color: white;
+} 
+
+#languages a:hover {
+    color: rgb(167, 167, 167);
+}
+
+#languages ul {
+    max-width: 100px;
 }
