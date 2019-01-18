@@ -5,37 +5,31 @@ body {
     color: #d3d3d3;
     background-color: #303030;
 }
-
-p {
-    margin: 10px;
-}
-
-
 .item {
     margin-right: 10px;
 }
-
 #profile-container {
     padding-left: 5%;
     padding-right: -5%;
 }
-
 #profile-container a:hover {
     color: #48AE49;
     cursor: pointer;
 }
-
 #profile-container a {
     color: #153518;
 }
-
 :hover {
     cursor: default;
 }
-
 i:hover {
     cursor: pointer;
 }
-
+.username{
+    color: rgb(134, 124, 124);
+}
+.date {
+    color: rgb(134, 124, 124);
+}
 
 
