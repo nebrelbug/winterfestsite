@@ -53,15 +53,14 @@ function Mover(loc,c) {
 var movers = [];
 
 function setup() {
-  colorMode(HSB);
   createCanvas(window.innerWidth,window.innerHeight);   
-  background(50);
+  background(48);
   
 }
 
 
 function draw() {
-  background(5);
+  background(48);
   
   if (mouseDown || frameCount%spawn_every_nth_frame==0 ) {    
     for (var x = 0; x < (mouseDown?spawn_on_clicked:spawn_on_mousemove); x++) {
@@ -102,4 +101,8 @@ function mousePressed() {
 
 function mouseReleased() {
   mouseDown = false;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
