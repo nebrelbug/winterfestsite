@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Winterfest ComPro</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
@@ -7,6 +8,12 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script>
+        function showModal() {
+            $('.ui.modal')
+                .modal('show')
+        }
+    </script>
 </head>
 
 <body>
@@ -38,38 +45,87 @@
         <h1 class="title">Compro Winterim</h1>
         <h2>"To become a programmer is to become a lifetime student" -Hector Piña</h2>
     </div>
-    <div class = 'content1' id = 'topSpace'>
-        <h2 class = 'heading'>Our Winterim</h2>
-        <p class = 'contentText'>“ComPro 2019 was AMAZING!!  The students and I learned so much together.  This course was life-changing for many of us because we learned the skills to build websites, thus empowering us with greater power to influence the world for good. Every single one of us learned - not because we were forced to do so, not because we were bribed to do so, but because we wanted to do so.  To me, this is one of the magical ingredients of Winterim - individuals choosing to study something they are passionate about.”
-                <br/>
+    <div class='content1' id='topSpace'>
+        <h2 class='heading'>Our Winterim</h2>
+        <p class='contentText'>“ComPro 2019 was AMAZING!! The students and I learned so much together. This course was
+            life-changing for many of us because we learned the skills to build websites, thus empowering us with
+            greater power to influence the world for good. Every single one of us learned - not because we were forced
+            to do so, not because we were bribed to do so, but because we wanted to do so. To me, this is one of the
+            magical ingredients of Winterim - individuals choosing to study something they are passionate about.”
+            <br />
             -Mr.Gilbert
-                </p>
+        </p>
+        <img class="ui large right floated image link stubbornBoi" src="./20190117_121227.jpg">
     </div>
-    <div class = 'content2'>
-            <h2 class = 'heading1'>Class graph (learn continually)</h2>
-                <p class = 'contentText1'>Before Christmas break, students were asked to personally rate their knowledge of programming on a scale of 1-10. approximately half the class reported a score of 2 or below. Students were also told, to give 20 hours of their winter break learning CSS, Javascript, and HTML using a free website called “Code academy.”
-                        Near the end of Winterim, students were again asked to rate their knowledge of programming, exactly like the beginning. The chart on the *left* shows what improvement students made during Winterim.
-                </p>
+    <div class='content2'>
+        <h2 class='heading1'>Class Graph</h2>
+        <p class='contentText1'>Before Christmas break, students were asked to personally rate their knowledge of
+            programming on a scale of 1-10. Approximately half the class reported a score of 2 or below. Students were
+            also told to give 20 hours of their winter break learning CSS, Javascript, and HTML using a free website
+            called “Codecademy.” <a href='https://www.codecademy.com/learn' target='_blank'>(https://www.codecademy.com/)</a>
+            Near the end of Winterim, students were again asked to rate their knowledge of programming. The chart on
+            the *left* shows how much their knowledge improved during Winterim.
+
+            <br />
+            (click on graph to enlarge)
+            <img onclick='showModal()' class="ui large left floated image stubbornBoi" src="./HERES THE GRAPH TATE.JPG"
+                id='imageFix'>
+        </p>
     </div>
-    <div class = 'content1'>
-            <h2 class = 'heading'>Personal websites (communicate effectively)</h2>
-            <p class = 'contentText'>Using HTML, CSS, and Javascript, students spent hours coding from scratch, to create unique websites intended to better themselves and their community. On the very first day of Winterim, each student was assigned a partner, through time, each partnership had to learn how to communicate effectively, so that both individuals could benefit from the other.
-                    Most Compro students would agree, that most of the time used for their website creation was spent fixing code, and solving problems. If a problem were to occur, the students were instructed to try their hardest with google, before turning to thier partner, or asking others for help. Through this method, students have learned how to solve problems, through the resources they already have, the internet is not just used for entertainment.                     
-                    </p>
+    <div class='content1'>
+        <h2 class='heading'>Personal Websites</h2>
+        <p class='contentText'>Using HTML, CSS, and Javascript, students spent hours coding from scratch to create
+            unique websites intended to better themselves and their community. On the very first day of Winterim each
+            student was assigned a partner to work with. If a problem were to occur, the students were instructed to
+            try their hardest with google before turning to their partner or asking others for help. Compro students
+            would agree that most of the time used for their website creation was spent fixing code and solving
+            problems. Throughout this process students have learned how to solve problems using the resources they
+            already have. They saw first hand that the internet has great value beyond just entertainment.
+
+        </p>
+        <img onclick='showModal()' class="ui large right floated image link stubbornBoi" src="./website-images/Dnd screenshot.PNG"
+            class='stubbornBoi'>
     </div>
-    <div class = 'content2'>
-            <h2 class = 'heading1'>Downtime activities</h2>
-            <p class = 'contentText1'>At the Adobe field trip, Compro learned to “work hard. Play hard.” Big companies like Adobe, know that hard work gets tedious, despite the endless capabilities of programming.
-                    All students know that lunch breaks are crucial in any work environment. Winterim wasn't all work, the entire class have enjoyed multiple lunches, and snacks provided by Winterim fees, “Papa John’s” and “Panda express” were the favorites! Compro have watched many episodes of “Splatalot” (on BYU-TV) and played multiple indoor frisbee games with Mr.Gilbert. 
-                    </p>
+    <div class='content2'>
+        <h2 class='heading1'>Downtime Activities</h2>
+        <p class='contentText1'>On an Adobe field trip, Compro received the message to “work hard. Play hard.” Despite
+            the endless capabilities of programming, big companies like Adobe know work can sometimes be tedious. They
+            seek to optimize their environment for employee satisfaction by including recreation, games, and food. We
+            especially enjoyed the spacious computer game room in the basement. Teenager heaven!
+            Lunch breaks are crucial in any work environment. The entire Compro class enjoyed multiple lunches and
+            snacks provided by Winterim fees. Papa John’s and Panda Express were the favorites! Compro watched many
+            episodes of “Splatalot” on BYU-TV and played multiple indoor frisbee games with Mr.Gilbert whose team often
+            lost.
+            “These activities were important to recharge batteries, and keep students motivated.”
+            <br />
+            -Ted Gilbert
+
+        </p>
+        <img class="ui large left floated image link stubbornBoi" src="Adobe4.jpg" id='imageFix2'>
     </div>
-    <div class = 'content1'>
-            <h2 class = 'heading'>Visitors</h2>
-            <p class = 'contentText'>Prior to the course the students were asked to rate their programming abilities on scale from 1 -10  (1 = no knowledge, 10 = I tutor Bill Gates on the weekend).  About half of the class rated themselves at a level 1 or 2.  By the end of Winterim every student reported a higher score.
-                    Over time, students have recognized the importance of effective communication, and passion, while coding a website.
-                    
-                    </p>
+    <div class='content1'>
+        <h2 class='heading'>Visitors</h2>
+        <p class='contentText'>“We were fortunate to receive guidance, insight, and direction from many professionals
+            in the programming and web development world. These include Michael Olsen of XactWare, Nate Zobrist of
+            Finicity, Hector Pina of Acima Credit, Ryan Heaton of Family Search, Dustin Christensen of Western
+            Governors University, and Dirk Giles of MicroFocus. Additionally, the class had the opportunity to go to
+            the Adobe Campus in Lehi for a tour.” 
+            <br/>
+            -Mr.Gilbert
+
+            <img class="ui large right floated image link stubbornBoi" src="Hector3 (1).jpg" id='imageFix3'>
+        </p>
+    </div>
+    <div class="ui modal">
+        <div class="header">Class Graph</div>
+        <div class="image content">
+            <img src='./HERES THE GRAPH TATE.JPG' id='modalImage'>
+            <div class="description">
+                <p></p>
+            </div>
+        </div>
     </div>
 
 </body>
+
 </html>
